@@ -43,7 +43,7 @@ passport.deserializeUser(User.deserializeUser());
 
 // ejs pages
 
-app.get("/", function(req, res){
+app.get("https://sumitgujrathi.github.io/webonnet/", function(req, res){
     res.render("home");
 });
 
@@ -107,6 +107,6 @@ app.get("/logout", function(req, res){
 });
 
 // At Last
-// app.listen(3000, function(){
-//     console.log("App Running");
-// });
+app.listen(3000, function(){
+    console.log("App Running");
+});
