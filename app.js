@@ -43,7 +43,7 @@ passport.deserializeUser(User.deserializeUser());
 
 // ejs pages
 
-app.get("https://sumitgujrathi.github.io/webonnet/", function(req, res){
+app.get("https://sumitgujrathi.github.io/webonnet/index.html", function(req, res){
     res.render("home");
 });
 
